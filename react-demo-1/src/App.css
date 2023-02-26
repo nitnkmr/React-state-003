@@ -1,0 +1,47 @@
+.App{
+  background-color: aqua;
+  height: 100vh;
+  width: 100vw;
+ 
+
+}
+.container{
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  width: 30%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: larger;
+
+}
+.bar label{
+  margin: 20px;
+}
+#input{
+  height: 20px;
+  width: 30px;
+margin-left: 20px;
+}
+input{
+  margin: 10px;
+  height: 29px;
+  width: 250px;
+}
+button{
+  background-color: rgb(136, 136, 230);
+  height: 29px;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+}
+.copy{
+  width: 100px;
+}
+.gen{
+  width: 100%;
+  height: 35px;
+  font-size: larger;
+}
